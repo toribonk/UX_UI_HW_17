@@ -1,46 +1,46 @@
-.body {
+body {
   font-family: 'Open Sans', sans-serif;
   color: #1f2528;
   font-weight: lighter;
   font-size: 18px;
 }
 .inline-block {
-    display: inline-block;
-    vertical-align: top;
+  display: inline-block;
+  vertical-align: top;
 }
 .logo {
-    width: 10%;
-    padding: 1%;
-    float: left;
+  width: 10%;
+  padding: 1%;
+  float: left;
 }
 .topnav {
     overflow: hidden;
     width: 50%;
     margin-left: auto;
   }
-  .topnav a {
-    float: left;
-    color: #4682b4;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+.topnav a {
+  float: left;
+  color: #4682b4;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
   }
-  .topnav a:hover {
-    background-color: #f2bd1e;
-    color: #1f2528;
+.topnav a:hover {
+  background-color: #ff4040;
+  color: white;
   }
- .topnav a.active {
-    background-color: #ff4040;
-    color: white;
+.topnav a.active {
+  background-color: #ff4040;
+  color: white;
   }
 .heroimg {
-    height: 600px;
-    padding: 25px;
+  height: 600px;
+  padding: 25px;
 }
 .content {
-    width: 500px;
-    margin: 0 auto;
+  width: 500px;
+  margin: 0 auto;
 }
 .bottomnav {
   overflow: hidden;
@@ -55,7 +55,7 @@
   font-size: 17px;
 }
 .bottomnav a:hover {
-  background-color: #373738;
+  background-color: #4682b4;
   color: white;
 }
 h1 {

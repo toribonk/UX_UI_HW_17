@@ -1,0 +1,85 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #1f2528;
+  font-weight: lighter;
+  font-size: 18px;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo {
+    width: 10%;
+    padding: 1%;
+    float: left;
+}
+.topnav {
+    overflow: hidden;
+    width: 50%;
+    margin-left: auto;
+  }
+  .topnav a {
+    float: left;
+    color: #4682b4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #f2bd1e;
+    color: #1f2528;
+  }
+ .topnav a.active {
+    background-color: #ff4040;
+    color: white;
+  }
+.heroimg {
+    height: 600px;
+    padding: 25px;
+}
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+.bottomnav {
+  overflow: hidden;
+  background-color: #ff4040;
+  height: 25px;
+}
+.bottomnav a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.bottomnav a:hover {
+  background-color: #373738;
+  color: white;
+}
+h1 {
+  font-size: 40px;
+  color: #ff4040;
+  font-weight: bolder;
+}
+h2 {
+  font-size: 24px;
+  font-weight: bolder;
+}
+button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  position: absolute;
+  width: 150px;
+  height: 38px;
+  border: 0.5px solid #1F2528;
+  box-sizing: border-box;
+}
+button:hover {
+  background-color: #FF4040;
+  border: none;
+  color: white;
+}
